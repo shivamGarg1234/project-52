@@ -1,0 +1,87 @@
+
+h1 {
+    color: brown;
+    border: solid yellow ;
+    border-radius : 2px;
+    /*margin-bottom: 0px;*/
+    padding-left: 500px;
+    /* practice !!!! */
+}
+
+/** {
+    border: solid;
+}*/
+body{
+    background-color: rgb(255, 94, 192);
+}
+
+
+.heading{
+    
+    background-color: rgb(255, 94, 192);
+    
+    }
+    
+    .pro {
+    
+    background-color: rgb(0, 128, 85);
+    color: yellow;
+    display: flex;
+    justify-content: space-evenly;
+    
+    }
+
+    
+
+    .project1 {
+    
+        background-color: rgb(0, 128, 85);
+        color: yellow;
+        display: flex;
+        justify-content: space-evenly;
+        
+        }
+        
+    .project2 {
+    
+        background-color: rgb(0, 128, 85);
+        color: yellow;
+        display: flex;
+        justify-content: space-evenly;
+        
+        }
+
+
+    .info{
+        background-color: rgb(255, 100, 150);
+        
+       
+        
+    }
+    .info a{
+        color: white;
+        display:flex;
+        justify-content: space-around;
+        flex-wrap: wrap-reverse;
+    }
+    
+    a:link{
+        color : white
+        }
+        a:visited{
+            color:black
+        }
+        
+        /*.games img{
+            background-color:black;
+        }*/
+        
+        .games:hover p{
+            opacity: 100;
+        
+        }
+        
+        .games:hover img{
+            opacity: 0.33;
+            
+        }
